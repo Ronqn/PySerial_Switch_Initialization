@@ -10,5 +10,7 @@ Then, simply start the script and it will do the job.
 
 Don't forget to change "COM7" to your COM port.
 
-## Contributing
-Contributions and improvements are welcome. Feel free to submit a pull request!
+## To-Do
+
+> Ask the user for the correct COM port to be used.
+> Various things to improve the speed of the script (timer).
