@@ -4,6 +4,7 @@ import sys
 from time import sleep
 from serial.serialutil import Timeout
 
+#Change the COM port to the one you are using.
 com_port = "COM7"
 
 def send_to_console(ser: serial.Serial, command: str, wait_time: float = 1):
@@ -112,9 +113,15 @@ def timer(seconds):
 
     sys.stdout.write("\rDone !\n")
 
+#Call Configure_switch function
 configure_switch()
+#Call tftp_transfer function
 tftp_transfer()
+#Timer with 480 seconds to complete the TFTP transfer
 timer(480)
+#Call boot_system function
 boot_system()
+#Timer with 75 seconds to reboot the system
 timer(75)
+#Call delete_directory function
 delete_directory()
