@@ -8,4 +8,4 @@ Boot the switch, and cancel the autoconfiguration of the switch, usually by typi
 
 Then, simply start the script and it will do the job.
 
-Don't forget to change "COM7" to your COM port.
+Don't forget to change "COM-TO-USE" to your COM port.
