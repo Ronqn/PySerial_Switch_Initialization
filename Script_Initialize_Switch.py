@@ -5,7 +5,7 @@ from time import sleep
 from serial.serialutil import Timeout
 
 #Change the COM port to the one you are using.
-com_port = "COM7"
+com_port = "COM-TO-USE"
 
 def send_to_console(ser: serial.Serial, command: str, wait_time: float = 1):
     """
